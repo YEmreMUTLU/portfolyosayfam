@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="iletisim.css">
+</head>
+<div class="container">
+    <div class="row">
+<div class="col-6">
+    <h4  style="color:white; margin-bottom:2rem;margin-left: 6.8rem; ">Menu</h4>
+    <ul class="menu active">
+        <div class="menuToggle"> <ion-icon name="add-outline"></ion-icon></div>
+        <li style="--i:0;--clr:#ff2972;">
+        <a href="index2.html" alt="" ><ion-icon name="home-outline"></ion-icon></a>  </li>
+        <!-- <li style="--i:1;--clr:#fee800;">
+            <a href="" alt=""><ion-icon name="settings-outline"></a>  </li> -->
+            <li style="--i:2;--clr:#04fc43;">
+                <a href="hakkımda.html" alt="" title="Hakkımda "><ion-icon name="person-outline"></ion-icon></ion-icon></a>  </li>
+                <!-- <li style="--i:3;--clr:#f500f1;">
+                    <a href="" alt=""><ion-icon name="game-controller-outline"></ion-icon></a>  </li> -->
+                    <li style="--i:4;--clr:#00b0fe;">
+                        <a href="projelerim.html" alt="" title="Projelerim"><ion-icon name="book-outline"></ion-icon></a>  </li>
+                        <!-- <li style="--i:5;--clr:#fea600;">
+                            <a href="" alt=""><ion-icon name="videocam-outline"></ion-icon></a>  </li> -->
+                            <li style="--i:6;--clr:#a529ff;">
+                                <a href="iletisim.html" alt="" title="Bana Ulaşın"><ion-icon name="mail-outline"></ion-icon></a>  </li>
+                                <!-- <li style="--i:7;--clr:#01bdab;">
+                                    <a href="" alt=""><ion-icon name="camera-outline"></ion-icon></a>  </li> -->
+       
+
+    </ul>
+</div> 
+<div class="col-6  infos">
+        
+        <h3>Yunus Emre MUTLU</h3>
+        <h5>Full-Stack Developer</h5>
+        <h6><u>Bana Ulaşın</u></h6>
+        <div class="contact">
+            <div class="contact1">
+                <p>Telefon: <br>+90530 996 53 ++ <br>
+                     Mail:<small> yunusemre1317@gmail.com </small><br>
+                    </p>
+                    <div class="links">
+                        <a href="https://github.com/YEmreMUTLU" target="_blank" title="Github"> <i class="fa-brands fa-github fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/in/yunus-emre-mutlu-6975902ba/" target="_blank" title="linkedin"> <i class="fa-brands fa-linkedin fa-lg"></i></a>
+                        
+                    </div>
+            </div>
+            <div class="contact2">
+               
+                    <iframe     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391769.09603232855!2d32.433101067847275!3d39.903436697541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347d520732db1%3A0xbdc57b0c0842b8d!2sAnkara!5e0!3m2!1str!2str!4v1707168324509!5m2!1str!2str" width="400" height="300" style="border:0; border-radius: 10px; margin-left: 10px ; align-items: center;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe></div>
+            </div>
+        </div>
+        
+        
+</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script> 
+    let menuToggle=document.querySelector(".menuToggle");
+    let menu= document.querySelector(".menu");
+    menuToggle.onclick=function(){
+        menu.classList.toggle('active');
+    }
+    
+    </script>
+
+</body>
+</html>
